@@ -1,0 +1,33 @@
+.order {
+  position: relative;
+  height: 600px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.order__overlay {
+  background-color: $background-color;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/backgound.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.order__center {
+  position: absolute;
+  transform: translate(100%, 100%);
+  text-align: center;
+}
+.order__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: $contacts-footer-color;
+}
+
+.order__btn {
+  padding: 10px 32px;
+}

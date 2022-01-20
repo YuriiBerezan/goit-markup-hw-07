@@ -1,5 +1,10 @@
-$color: tan;
-
-body {
-  background-color: $color;
-}
+@import 'utils/variables';
+@import 'base/my-reset';
+@import 'base/base-styles';
+@import 'components/section-main';
+@import 'components/header';
+@import 'components/header-logo';
+@import 'components/header-nav';
+@import 'components/header-contacts';
+@import 'components/section-order';
+@import 'components/section-peculiarities';
