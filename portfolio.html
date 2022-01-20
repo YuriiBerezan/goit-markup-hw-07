@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!-- Шапка страницы -->
@@ -243,10 +243,10 @@
     <!-- Подвал страницы -->
     <footer class="page-footer">
       <div class="container footer">
-        <div class="footer-contacts">
-          <a class="footer-logo logo-text" href="WebSudio"
-            ><span class="footer-logo__web">Web</span
-            ><span class="footer-logo__studio">Studio</span>
+        <div>
+          <a class="footer-logo footer-logo__text" href="WebSudio"
+            ><span class="footer-logo__text--web">Web</span
+            ><span class="footer-logo__text--studio">Studio</span>
           </a>
 
           <address class="footer-address">
@@ -257,60 +257,78 @@
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
-            <a class="footer-address__contacts mail-text" href="mailto:info@devstudio.com"
+            <a class="footer-address__contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-            <a class="footer-address__contacts tel-text" href="tel:380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="footer-address__contacts" href="tel:380961111111">+38 096 111 11 11</a>
           </address>
         </div>
-        <div class="footer__social-links">
-          <h3 class="footer__text">Присоеденяйтесь</h3>
-          <ul class="footer__sprite">
-            <li class="footer__list">
-              <a class="footer__link" href="" target="_blank" rel="noopener noreferrer">
-                <svg class="footer__item" width="20" height="20">
+        <div class="footer-social-links">
+          <h3 class="footer-social-links__text">Присоеденяйтесь</h3>
+          <ul class="footer-social-links__sprite">
+            <li class="footer-social-links__list">
+              <a
+                class="footer-social-links__item"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-links__icon" width="20" height="20">
                   <use href="images/svg/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer__list">
-              <a class="footer__link" href="" target="_blank" rel="noopener noreferrer">
-                <svg class="footer__item" width="20" height="20">
+            <li class="footer-social-links__list">
+              <a
+                class="footer-social-links__item"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-links__icon" width="20" height="20">
                   <use href="images/svg/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer__list">
-              <a class="footer__link" href="" target="_blank" rel="noopener noreferrer">
-                <svg class="footer__item" width="20" height="20">
+            <li class="footer-social-links__list">
+              <a
+                class="footer-social-links__item"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-links__icon" width="20" height="20">
                   <use href="images/svg/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer__list">
-              <a class="footer__link" href="" target="_blank" rel="noopener noreferrer">
-                <svg class="footer__item" width="20" height="20">
+            <li class="footer-social-links__list">
+              <a
+                class="footer-social-links__item"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="footer-social-links__icon" width="20" height="20">
                   <use href="images/svg/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <form class="footer__subscription">
-          <h3 class="footer__text">Подпишитесь на рассылку</h3>
-          <div class="footer__input-btn">
+        <form class="footer-subscription">
+          <h3 class="footer-subscription__text">Подпишитесь на рассылку</h3>
+          <div class="footer-subscription__elements">
             <input
-              class="footer__input"
+              class="footer-subscription__input"
               type="email"
               name="email"
               placeholder="E-mail"
               autocomplete="off"
             />
-            <button class="footer__subscription-btn btn" type="submit">
+            <button class="btn footer-subscription__btn" type="submit">
               Подписаться
-              <svg class="footer__send-item" width="24" height="24">
+              <svg class="footer-subscription__send-icon" width="24" height="24">
                 <use href="images/svg/icons.svg#icon-send"></use>
               </svg>
             </button>

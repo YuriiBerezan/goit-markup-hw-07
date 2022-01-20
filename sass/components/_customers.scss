@@ -1,0 +1,42 @@
+.customers {
+  &__sprite {
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 170px;
+    color: $link-color;
+    border: 1px solid $link-color;
+    border-radius: 4px;
+    transition: $animation-color, $animation-border;
+  }
+
+  &__list:last-child {
+    margin-right: 0;
+  }
+  &__item {
+    fill: currentColor;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    border: 1px solid $web-color;
+  }
+
+  &__list {
+    margin-right: 30px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: $main-color;
+  }
+}
