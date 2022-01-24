@@ -79,17 +79,13 @@ textarea:hover {
   padding-top: 5px;
 }
 
-.header__nav {
+.header__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  /* position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0; */
 }
 
 .header-logo {
