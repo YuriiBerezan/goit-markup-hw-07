@@ -77,6 +77,9 @@ textarea:hover {
 .header {
   border-bottom: 1px solid #ececec;
   padding-top: 5px;
+}
+
+.header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

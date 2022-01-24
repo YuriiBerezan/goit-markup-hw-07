@@ -1,6 +1,9 @@
 .header {
   border-bottom: 1px solid #ececec;
   padding-top: 5px;
+}
+
+.header__nav {
   display: flex;
   align-items: baseline;
   /* position: fixed;
