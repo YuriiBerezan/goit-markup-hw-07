@@ -125,6 +125,7 @@ textarea:hover {
 .header-nav__title {
   display: block;
   padding: 20px 0;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -155,6 +156,7 @@ textarea:hover {
   color: #757575;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -195,6 +197,7 @@ textarea:hover {
 }
 
 .order__title {
+  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
