@@ -155,10 +155,11 @@ textarea:hover {
   color: #757575;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.14;
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts__mail {
@@ -488,11 +489,14 @@ textarea:hover {
   font-size: 18px;
   line-height: 2;
   color: #212121;
+  letter-spacing: 0.06em;
 }
 
 .projects__description {
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.9;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 /*# sourceMappingURL=portfolio.css.map */

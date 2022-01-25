@@ -81,10 +81,13 @@
   font-size: 18px;
   line-height: 2;
   color: $main-color;
+  letter-spacing: 0.06em;
 }
 
 .projects__description {
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.9;
   color: $contacts-header-color;
+  letter-spacing: 0.03em;
 }
